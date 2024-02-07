@@ -1,0 +1,216 @@
+@media (max-width: 1199.99px) {
+.biography__content-img{
+   width: 450px !important;
+}
+.biography__content-info-descr{
+   font-size: 22px !important;
+} 
+.biography__content{
+   display: flex !important;
+   justify-content: center;
+}  
+.biography__content-info-descr{
+   font-size: 20px !important;
+}
+.myswiper{
+   width: 900px !important;
+}
+}
+
+
+@media (max-width: 991.99px) {
+.nav {
+   position: relative !important;
+   background: black !important;
+}
+.nav__content-logo-title{
+   font-size: 18px !important;
+} 
+.nav__content-list{
+   font-size: 18px !important;
+}
+.header__content-title{
+   font-size: 28px !important;
+}
+.biography__content-img{
+   width: 450px !important;
+}
+.biography__content-info-descr{
+   font-size: 18px !important;
+}
+.biography__content{
+   display: flex !important;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.biography-title{
+   font-size: 28px !important;
+}
+.myswiper{
+   width: 800px !important;
+}
+.projects-title{
+   font-size: 28px !important;
+}
+.projects-description{
+   font-size: 18px !important;
+}
+.footer__content{
+   display: flex !important;
+   flex-wrap: wrap !important;
+   justify-content: center !important;
+   align-items: center !important;
+   align-content: center !important;
+}
+.footer__content-info{
+   font-size: 18px !important;
+}
+.footer__content-title{
+   font-size: 28px !important;
+}
+}
+
+@media (max-width: 839.99px) {
+.myswiper{
+   width: 500px !important;
+}
+}
+
+
+@media (max-width: 767.99px) {
+   
+.nav {
+   position: absolute !important;
+   padding: 15px 0 !important;
+}
+.nav__content-list {
+   position: absolute!important;
+   top: 100%!important;
+   flex-direction: column!important;
+   background: black!important; 
+   left: -100%!important;
+   width: 100%!important;
+   align-items: center!important;
+   transition: .5s!important;
+   padding-bottom: 40px !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.50) !important;
+
+}  
+.nav__content-list-link{
+   font-size: 16px !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.50) !important;
+   padding-bottom: 10px !important;
+}
+.nav__content-menu-btn{
+   display: flex !important;
+}
+.nav__content-menu:hover .nav__content-list {
+   left: 0 !important;  
+}
+.header__content-title{
+   font-size: 24px !important;
+}
+.myswiper{
+   width: 500px !important;
+}
+.projects-title{
+   font-size: 24px !important;
+}
+.projects-description{
+   font-size: 18px !important;
+}
+.footer__content-title{
+   font-size: 24px !important;
+}
+.footer__content-info{
+   font-size: 18px !important;
+}
+
+}
+@media (max-width: 575.99px) {
+.nav__content-logo-title{
+   font-size: 16px !important;
+} 
+.nav__content-list{
+   position: absolute !important;
+   padding-bottom: 40px !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.50) !important;
+}
+.nav__content-list-link{
+   font-size: 16px !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.50) !important;
+   padding-bottom: 10px !important;
+}
+.header__content-title{
+   font-size: 20px !important;
+}
+.biography__content-img{
+   width: 350px !important;
+}
+.biography__content-info-descr{
+   font-size: 16px !important;
+}
+.biography__content{
+   display: flex !important;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.biography-title{
+   font-size: 24px !important;
+}
+.slider{
+   max-width: 100%;
+   height: auto !important;
+}
+.projects-title{
+   font-size: 24px !important;
+}
+.projects-description{
+   font-size: 16px !important;
+   height: auto !important;
+}
+.footer__content-title{
+   font-size: 24px !important;
+}
+.footer__content-info{
+   display: flex !important;
+   flex-wrap: wrap !important;
+   justify-content: center !important;
+   align-items: center !important;
+   font-size: 16px !important;
+}
+.footer__content-socials{
+   display: flex !important;
+   flex-wrap: wrap !important;
+   justify-content: center !important;
+   align-items: center !important;
+}
+}
+
+@media (max-width: 475.99px){
+.slider{
+   max-width: 100% !important;
+} 
+.myswiper{
+   height: 240px !important;
+}
+}
+
+@media (max-width: 375.99px){
+.slider{
+   max-width: 100% !important;
+}
+.myswiper{
+   height: 220px !important;
+}
+}
+
+@media (max-width: 275.99px){
+.slider{
+   max-width: 100% !important;
+}
+.myswiper{
+   height: 200px !important;
+}
+
+}
